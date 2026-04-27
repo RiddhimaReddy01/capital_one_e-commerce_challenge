@@ -1,0 +1,1132 @@
+{
+  "has_previous": true,
+  "metric_deltas": [
+    {
+      "metric": "buyers.duplicate_buyer_id_count",
+      "previous": 0.0,
+      "current": 0.0,
+      "delta": 0.0,
+      "pct_change": null
+    },
+    {
+      "metric": "buyers.invalid_referral_count",
+      "previous": 214.0,
+      "current": 214.0,
+      "delta": 0.0,
+      "pct_change": 0.0
+    },
+    {
+      "metric": "buyers.null_profile.buyer_id",
+      "previous": 0.0,
+      "current": 0.0,
+      "delta": 0.0,
+      "pct_change": null
+    },
+    {
+      "metric": "buyers.null_profile.customer_group",
+      "previous": 0.0,
+      "current": 0.0,
+      "delta": 0.0,
+      "pct_change": null
+    },
+    {
+      "metric": "buyers.null_profile.customer_segment",
+      "previous": 0.0,
+      "current": 0.0,
+      "delta": 0.0,
+      "pct_change": null
+    },
+    {
+      "metric": "buyers.null_profile.is_referred",
+      "previous": 214.0,
+      "current": 214.0,
+      "delta": 0.0,
+      "pct_change": 0.0
+    },
+    {
+      "metric": "buyers.null_profile.is_referred_invalid",
+      "previous": 0.0,
+      "current": 0.0,
+      "delta": 0.0,
+      "pct_change": null
+    },
+    {
+      "metric": "buyers.null_profile.preferred_channel",
+      "previous": 0.0,
+      "current": 0.0,
+      "delta": 0.0,
+      "pct_change": null
+    },
+    {
+      "metric": "buyers.null_profile.preferred_payment",
+      "previous": 0.0,
+      "current": 0.0,
+      "delta": 0.0,
+      "pct_change": null
+    },
+    {
+      "metric": "buyers.null_profile.preferred_subcategory",
+      "previous": 0.0,
+      "current": 0.0,
+      "delta": 0.0,
+      "pct_change": null
+    },
+    {
+      "metric": "buyers.null_profile.region",
+      "previous": 0.0,
+      "current": 0.0,
+      "delta": 0.0,
+      "pct_change": null
+    },
+    {
+      "metric": "buyers.null_profile.signup_date",
+      "previous": 0.0,
+      "current": 0.0,
+      "delta": 0.0,
+      "pct_change": null
+    },
+    {
+      "metric": "buyers.null_profile.state",
+      "previous": 0.0,
+      "current": 0.0,
+      "delta": 0.0,
+      "pct_change": null
+    },
+    {
+      "metric": "buyers.null_profile.subcategory_pool",
+      "previous": 0.0,
+      "current": 0.0,
+      "delta": 0.0,
+      "pct_change": null
+    },
+    {
+      "metric": "buyers.null_profile.timezone",
+      "previous": 0.0,
+      "current": 0.0,
+      "delta": 0.0,
+      "pct_change": null
+    },
+    {
+      "metric": "buyers.null_profile.wishlist_size",
+      "previous": 0.0,
+      "current": 0.0,
+      "delta": 0.0,
+      "pct_change": null
+    },
+    {
+      "metric": "buyers.rows",
+      "previous": 23784.0,
+      "current": 23784.0,
+      "delta": 0.0,
+      "pct_change": 0.0
+    },
+    {
+      "metric": "final_line.duplicate_order_buyer_sku_count",
+      "previous": 0.0,
+      "current": 0.0,
+      "delta": 0.0,
+      "pct_change": null
+    },
+    {
+      "metric": "final_line.null_profile.active_product",
+      "previous": 0.0,
+      "current": 0.0,
+      "delta": 0.0,
+      "pct_change": null
+    },
+    {
+      "metric": "final_line.null_profile.active_product_num",
+      "previous": 77827.0,
+      "current": 77827.0,
+      "delta": 0.0,
+      "pct_change": 0.0
+    },
+    {
+      "metric": "final_line.null_profile.buyer_id",
+      "previous": 0.0,
+      "current": 0.0,
+      "delta": 0.0,
+      "pct_change": null
+    },
+    {
+      "metric": "final_line.null_profile.category_id",
+      "previous": 0.0,
+      "current": 0.0,
+      "delta": 0.0,
+      "pct_change": null
+    },
+    {
+      "metric": "final_line.null_profile.category_name",
+      "previous": 0.0,
+      "current": 0.0,
+      "delta": 0.0,
+      "pct_change": null
+    },
+    {
+      "metric": "final_line.null_profile.current_stock",
+      "previous": 0.0,
+      "current": 0.0,
+      "delta": 0.0,
+      "pct_change": null
+    },
+    {
+      "metric": "final_line.null_profile.current_stock_num",
+      "previous": 0.0,
+      "current": 0.0,
+      "delta": 0.0,
+      "pct_change": null
+    },
+    {
+      "metric": "final_line.null_profile.currently_active_vendor",
+      "previous": 0.0,
+      "current": 0.0,
+      "delta": 0.0,
+      "pct_change": null
+    },
+    {
+      "metric": "final_line.null_profile.currently_active_vendor_num",
+      "previous": 77827.0,
+      "current": 77827.0,
+      "delta": 0.0,
+      "pct_change": 0.0
+    },
+    {
+      "metric": "final_line.null_profile.customer_group",
+      "previous": 0.0,
+      "current": 0.0,
+      "delta": 0.0,
+      "pct_change": null
+    },
+    {
+      "metric": "final_line.null_profile.customer_segment",
+      "previous": 0.0,
+      "current": 0.0,
+      "delta": 0.0,
+      "pct_change": null
+    },
+    {
+      "metric": "final_line.null_profile.inactive_with_stock_flag",
+      "previous": 0.0,
+      "current": 0.0,
+      "delta": 0.0,
+      "pct_change": null
+    },
+    {
+      "metric": "final_line.null_profile.is_referred",
+      "previous": 2718.0,
+      "current": 2718.0,
+      "delta": 0.0,
+      "pct_change": 0.0
+    },
+    {
+      "metric": "final_line.null_profile.is_referred_invalid",
+      "previous": 0.0,
+      "current": 0.0,
+      "delta": 0.0,
+      "pct_change": null
+    },
+    {
+      "metric": "final_line.null_profile.margin",
+      "previous": 0.0,
+      "current": 0.0,
+      "delta": 0.0,
+      "pct_change": null
+    },
+    {
+      "metric": "final_line.null_profile.margin_imputed",
+      "previous": 0.0,
+      "current": 0.0,
+      "delta": 0.0,
+      "pct_change": null
+    },
+    {
+      "metric": "final_line.null_profile.order_datetime",
+      "previous": 0.0,
+      "current": 0.0,
+      "delta": 0.0,
+      "pct_change": null
+    },
+    {
+      "metric": "final_line.null_profile.order_id",
+      "previous": 0.0,
+      "current": 0.0,
+      "delta": 0.0,
+      "pct_change": null
+    },
+    {
+      "metric": "final_line.null_profile.order_status",
+      "previous": 0.0,
+      "current": 0.0,
+      "delta": 0.0,
+      "pct_change": null
+    },
+    {
+      "metric": "final_line.null_profile.pct_profit_margin",
+      "previous": 285924.0,
+      "current": 285924.0,
+      "delta": 0.0,
+      "pct_change": 0.0
+    },
+    {
+      "metric": "final_line.null_profile.preferred_channel",
+      "previous": 0.0,
+      "current": 0.0,
+      "delta": 0.0,
+      "pct_change": null
+    },
+    {
+      "metric": "final_line.null_profile.preferred_payment",
+      "previous": 0.0,
+      "current": 0.0,
+      "delta": 0.0,
+      "pct_change": null
+    },
+    {
+      "metric": "final_line.null_profile.preferred_subcategory",
+      "previous": 0.0,
+      "current": 0.0,
+      "delta": 0.0,
+      "pct_change": null
+    },
+    {
+      "metric": "final_line.null_profile.price",
+      "previous": 0.0,
+      "current": 0.0,
+      "delta": 0.0,
+      "pct_change": null
+    },
+    {
+      "metric": "final_line.null_profile.product_num",
+      "previous": 0.0,
+      "current": 0.0,
+      "delta": 0.0,
+      "pct_change": null
+    },
+    {
+      "metric": "final_line.null_profile.profit_margin",
+      "previous": 33373.0,
+      "current": 33373.0,
+      "delta": 0.0,
+      "pct_change": 0.0
+    },
+    {
+      "metric": "final_line.null_profile.quantity",
+      "previous": 0.0,
+      "current": 0.0,
+      "delta": 0.0,
+      "pct_change": null
+    },
+    {
+      "metric": "final_line.null_profile.quantity_cap_value",
+      "previous": 0.0,
+      "current": 0.0,
+      "delta": 0.0,
+      "pct_change": null
+    },
+    {
+      "metric": "final_line.null_profile.quantity_original",
+      "previous": 0.0,
+      "current": 0.0,
+      "delta": 0.0,
+      "pct_change": null
+    },
+    {
+      "metric": "final_line.null_profile.quantity_was_capped",
+      "previous": 0.0,
+      "current": 0.0,
+      "delta": 0.0,
+      "pct_change": null
+    },
+    {
+      "metric": "final_line.null_profile.region",
+      "previous": 0.0,
+      "current": 0.0,
+      "delta": 0.0,
+      "pct_change": null
+    },
+    {
+      "metric": "final_line.null_profile.signup_date",
+      "previous": 0.0,
+      "current": 0.0,
+      "delta": 0.0,
+      "pct_change": null
+    },
+    {
+      "metric": "final_line.null_profile.sku_id",
+      "previous": 0.0,
+      "current": 0.0,
+      "delta": 0.0,
+      "pct_change": null
+    },
+    {
+      "metric": "final_line.null_profile.state",
+      "previous": 0.0,
+      "current": 0.0,
+      "delta": 0.0,
+      "pct_change": null
+    },
+    {
+      "metric": "final_line.null_profile.subcategory_id",
+      "previous": 0.0,
+      "current": 0.0,
+      "delta": 0.0,
+      "pct_change": null
+    },
+    {
+      "metric": "final_line.null_profile.subcategory_name",
+      "previous": 0.0,
+      "current": 0.0,
+      "delta": 0.0,
+      "pct_change": null
+    },
+    {
+      "metric": "final_line.null_profile.subcategory_pool",
+      "previous": 0.0,
+      "current": 0.0,
+      "delta": 0.0,
+      "pct_change": null
+    },
+    {
+      "metric": "final_line.null_profile.timezone",
+      "previous": 0.0,
+      "current": 0.0,
+      "delta": 0.0,
+      "pct_change": null
+    },
+    {
+      "metric": "final_line.null_profile.vendor",
+      "previous": 0.0,
+      "current": 0.0,
+      "delta": 0.0,
+      "pct_change": null
+    },
+    {
+      "metric": "final_line.null_profile.vendor_product_conflict",
+      "previous": 0.0,
+      "current": 0.0,
+      "delta": 0.0,
+      "pct_change": null
+    },
+    {
+      "metric": "final_line.null_profile.wishlist_size",
+      "previous": 0.0,
+      "current": 0.0,
+      "delta": 0.0,
+      "pct_change": null
+    },
+    {
+      "metric": "final_line.rows",
+      "previous": 315775.0,
+      "current": 315775.0,
+      "delta": 0.0,
+      "pct_change": 0.0
+    },
+    {
+      "metric": "order_level.duplicate_order_id_count",
+      "previous": 0.0,
+      "current": 0.0,
+      "delta": 0.0,
+      "pct_change": null
+    },
+    {
+      "metric": "order_level.monthly_trend_rows",
+      "previous": 24.0,
+      "current": 24.0,
+      "delta": 0.0,
+      "pct_change": 0.0
+    },
+    {
+      "metric": "order_level.null_profile.black_friday_discount_amount",
+      "previous": 0.0,
+      "current": 0.0,
+      "delta": 0.0,
+      "pct_change": null
+    },
+    {
+      "metric": "order_level.null_profile.buyer_id",
+      "previous": 0.0,
+      "current": 0.0,
+      "delta": 0.0,
+      "pct_change": null
+    },
+    {
+      "metric": "order_level.null_profile.company_shipping_cost",
+      "previous": 0.0,
+      "current": 0.0,
+      "delta": 0.0,
+      "pct_change": null
+    },
+    {
+      "metric": "order_level.null_profile.customer_segment",
+      "previous": 0.0,
+      "current": 0.0,
+      "delta": 0.0,
+      "pct_change": null
+    },
+    {
+      "metric": "order_level.null_profile.customer_shipping_fee",
+      "previous": 0.0,
+      "current": 0.0,
+      "delta": 0.0,
+      "pct_change": null
+    },
+    {
+      "metric": "order_level.null_profile.hour_company",
+      "previous": 0.0,
+      "current": 0.0,
+      "delta": 0.0,
+      "pct_change": null
+    },
+    {
+      "metric": "order_level.null_profile.is_black_friday",
+      "previous": 0.0,
+      "current": 0.0,
+      "delta": 0.0,
+      "pct_change": null
+    },
+    {
+      "metric": "order_level.null_profile.is_first_order",
+      "previous": 0.0,
+      "current": 0.0,
+      "delta": 0.0,
+      "pct_change": null
+    },
+    {
+      "metric": "order_level.null_profile.is_referral_discount",
+      "previous": 0.0,
+      "current": 0.0,
+      "delta": 0.0,
+      "pct_change": null
+    },
+    {
+      "metric": "order_level.null_profile.is_referred",
+      "previous": 0.0,
+      "current": 0.0,
+      "delta": 0.0,
+      "pct_change": null
+    },
+    {
+      "metric": "order_level.null_profile.order_base_revenue",
+      "previous": 0.0,
+      "current": 0.0,
+      "delta": 0.0,
+      "pct_change": null
+    },
+    {
+      "metric": "order_level.null_profile.order_cogs",
+      "previous": 0.0,
+      "current": 0.0,
+      "delta": 0.0,
+      "pct_change": null
+    },
+    {
+      "metric": "order_level.null_profile.order_datetime_company",
+      "previous": 0.0,
+      "current": 0.0,
+      "delta": 0.0,
+      "pct_change": null
+    },
+    {
+      "metric": "order_level.null_profile.order_id",
+      "previous": 0.0,
+      "current": 0.0,
+      "delta": 0.0,
+      "pct_change": null
+    },
+    {
+      "metric": "order_level.null_profile.order_net_revenue_before_shipping",
+      "previous": 0.0,
+      "current": 0.0,
+      "delta": 0.0,
+      "pct_change": null
+    },
+    {
+      "metric": "order_level.null_profile.order_profit",
+      "previous": 0.0,
+      "current": 0.0,
+      "delta": 0.0,
+      "pct_change": null
+    },
+    {
+      "metric": "order_level.null_profile.order_revenue",
+      "previous": 0.0,
+      "current": 0.0,
+      "delta": 0.0,
+      "pct_change": null
+    },
+    {
+      "metric": "order_level.null_profile.quarter",
+      "previous": 0.0,
+      "current": 0.0,
+      "delta": 0.0,
+      "pct_change": null
+    },
+    {
+      "metric": "order_level.null_profile.referral_discount_amount",
+      "previous": 0.0,
+      "current": 0.0,
+      "delta": 0.0,
+      "pct_change": null
+    },
+    {
+      "metric": "order_level.null_profile.region",
+      "previous": 0.0,
+      "current": 0.0,
+      "delta": 0.0,
+      "pct_change": null
+    },
+    {
+      "metric": "order_level.null_profile.state",
+      "previous": 0.0,
+      "current": 0.0,
+      "delta": 0.0,
+      "pct_change": null
+    },
+    {
+      "metric": "order_level.null_profile.year",
+      "previous": 0.0,
+      "current": 0.0,
+      "delta": 0.0,
+      "pct_change": null
+    },
+    {
+      "metric": "order_level.order_profit_summary.count",
+      "previous": 224344.0,
+      "current": 224344.0,
+      "delta": 0.0,
+      "pct_change": 0.0
+    },
+    {
+      "metric": "order_level.order_profit_summary.max",
+      "previous": 1820.485062642038,
+      "current": 1820.485062642038,
+      "delta": 0.0,
+      "pct_change": 0.0
+    },
+    {
+      "metric": "order_level.order_profit_summary.median",
+      "previous": 13.265382190988484,
+      "current": 13.265382190988484,
+      "delta": 0.0,
+      "pct_change": 0.0
+    },
+    {
+      "metric": "order_level.order_profit_summary.min",
+      "previous": -73.05696609571051,
+      "current": -73.05696609571051,
+      "delta": 0.0,
+      "pct_change": 0.0
+    },
+    {
+      "metric": "order_level.order_profit_summary.negative_order_profit_count",
+      "previous": 5011.0,
+      "current": 5011.0,
+      "delta": 0.0,
+      "pct_change": 0.0
+    },
+    {
+      "metric": "order_level.order_profit_summary.p25",
+      "previous": 5.628913859201807,
+      "current": 5.628913859201807,
+      "delta": 0.0,
+      "pct_change": 0.0
+    },
+    {
+      "metric": "order_level.order_profit_summary.p75",
+      "previous": 29.828549974464124,
+      "current": 29.828549974464124,
+      "delta": 0.0,
+      "pct_change": 0.0
+    },
+    {
+      "metric": "order_level.rows",
+      "previous": 224344.0,
+      "current": 224344.0,
+      "delta": 0.0,
+      "pct_change": 0.0
+    },
+    {
+      "metric": "products.category_breakdown_rows",
+      "previous": 8.0,
+      "current": 8.0,
+      "delta": 0.0,
+      "pct_change": 0.0
+    },
+    {
+      "metric": "products.duplicate_sku_id_count",
+      "previous": 0.0,
+      "current": 0.0,
+      "delta": 0.0,
+      "pct_change": null
+    },
+    {
+      "metric": "products.inactive_with_stock_count",
+      "previous": 270.0,
+      "current": 270.0,
+      "delta": 0.0,
+      "pct_change": 0.0
+    },
+    {
+      "metric": "products.margin_imputed_count",
+      "previous": 26.0,
+      "current": 26.0,
+      "delta": 0.0,
+      "pct_change": 0.0
+    },
+    {
+      "metric": "products.null_profile.active_product",
+      "previous": 0.0,
+      "current": 0.0,
+      "delta": 0.0,
+      "pct_change": null
+    },
+    {
+      "metric": "products.null_profile.active_product_num",
+      "previous": 274.0,
+      "current": 274.0,
+      "delta": 0.0,
+      "pct_change": 0.0
+    },
+    {
+      "metric": "products.null_profile.category_id",
+      "previous": 0.0,
+      "current": 0.0,
+      "delta": 0.0,
+      "pct_change": null
+    },
+    {
+      "metric": "products.null_profile.category_name",
+      "previous": 0.0,
+      "current": 0.0,
+      "delta": 0.0,
+      "pct_change": null
+    },
+    {
+      "metric": "products.null_profile.current_stock",
+      "previous": 0.0,
+      "current": 0.0,
+      "delta": 0.0,
+      "pct_change": null
+    },
+    {
+      "metric": "products.null_profile.current_stock_num",
+      "previous": 0.0,
+      "current": 0.0,
+      "delta": 0.0,
+      "pct_change": null
+    },
+    {
+      "metric": "products.null_profile.currently_active_vendor",
+      "previous": 0.0,
+      "current": 0.0,
+      "delta": 0.0,
+      "pct_change": null
+    },
+    {
+      "metric": "products.null_profile.currently_active_vendor_num",
+      "previous": 274.0,
+      "current": 274.0,
+      "delta": 0.0,
+      "pct_change": 0.0
+    },
+    {
+      "metric": "products.null_profile.inactive_with_stock_flag",
+      "previous": 0.0,
+      "current": 0.0,
+      "delta": 0.0,
+      "pct_change": null
+    },
+    {
+      "metric": "products.null_profile.margin",
+      "previous": 0.0,
+      "current": 0.0,
+      "delta": 0.0,
+      "pct_change": null
+    },
+    {
+      "metric": "products.null_profile.margin_imputed",
+      "previous": 0.0,
+      "current": 0.0,
+      "delta": 0.0,
+      "pct_change": null
+    },
+    {
+      "metric": "products.null_profile.pct_profit_margin",
+      "previous": 839.0,
+      "current": 839.0,
+      "delta": 0.0,
+      "pct_change": 0.0
+    },
+    {
+      "metric": "products.null_profile.price",
+      "previous": 0.0,
+      "current": 0.0,
+      "delta": 0.0,
+      "pct_change": null
+    },
+    {
+      "metric": "products.null_profile.product_num",
+      "previous": 0.0,
+      "current": 0.0,
+      "delta": 0.0,
+      "pct_change": null
+    },
+    {
+      "metric": "products.null_profile.profit_margin",
+      "previous": 224.0,
+      "current": 224.0,
+      "delta": 0.0,
+      "pct_change": 0.0
+    },
+    {
+      "metric": "products.null_profile.sku_id",
+      "previous": 0.0,
+      "current": 0.0,
+      "delta": 0.0,
+      "pct_change": null
+    },
+    {
+      "metric": "products.null_profile.subcategory_id",
+      "previous": 0.0,
+      "current": 0.0,
+      "delta": 0.0,
+      "pct_change": null
+    },
+    {
+      "metric": "products.null_profile.subcategory_name",
+      "previous": 0.0,
+      "current": 0.0,
+      "delta": 0.0,
+      "pct_change": null
+    },
+    {
+      "metric": "products.null_profile.vendor",
+      "previous": 0.0,
+      "current": 0.0,
+      "delta": 0.0,
+      "pct_change": null
+    },
+    {
+      "metric": "products.null_profile.vendor_product_conflict",
+      "previous": 0.0,
+      "current": 0.0,
+      "delta": 0.0,
+      "pct_change": null
+    },
+    {
+      "metric": "products.numeric_bounds.current_stock.max",
+      "previous": 199.0,
+      "current": 199.0,
+      "delta": 0.0,
+      "pct_change": 0.0
+    },
+    {
+      "metric": "products.numeric_bounds.current_stock.mean",
+      "previous": 63.64513018322083,
+      "current": 63.64513018322083,
+      "delta": 0.0,
+      "pct_change": 0.0
+    },
+    {
+      "metric": "products.numeric_bounds.current_stock.min",
+      "previous": 5.0,
+      "current": 5.0,
+      "delta": 0.0,
+      "pct_change": 0.0
+    },
+    {
+      "metric": "products.numeric_bounds.current_stock.null_count",
+      "previous": 0.0,
+      "current": 0.0,
+      "delta": 0.0,
+      "pct_change": null
+    },
+    {
+      "metric": "products.numeric_bounds.margin.max",
+      "previous": 0.9271309956369038,
+      "current": 0.9271309956369038,
+      "delta": 0.0,
+      "pct_change": 0.0
+    },
+    {
+      "metric": "products.numeric_bounds.margin.mean",
+      "previous": 0.3025291267054234,
+      "current": 0.3025291267054234,
+      "delta": 0.0,
+      "pct_change": 0.0
+    },
+    {
+      "metric": "products.numeric_bounds.margin.min",
+      "previous": -0.0443880730134661,
+      "current": -0.0443880730134661,
+      "delta": 0.0,
+      "pct_change": 0.0
+    },
+    {
+      "metric": "products.numeric_bounds.margin.null_count",
+      "previous": 0.0,
+      "current": 0.0,
+      "delta": 0.0,
+      "pct_change": null
+    },
+    {
+      "metric": "products.numeric_bounds.price.max",
+      "previous": 1243.16,
+      "current": 1243.16,
+      "delta": 0.0,
+      "pct_change": 0.0
+    },
+    {
+      "metric": "products.numeric_bounds.price.mean",
+      "previous": 68.39088717454196,
+      "current": 68.39088717454196,
+      "delta": 0.0,
+      "pct_change": 0.0
+    },
+    {
+      "metric": "products.numeric_bounds.price.min",
+      "previous": 3.18,
+      "current": 3.18,
+      "delta": 0.0,
+      "pct_change": 0.0
+    },
+    {
+      "metric": "products.numeric_bounds.price.null_count",
+      "previous": 0.0,
+      "current": 0.0,
+      "delta": 0.0,
+      "pct_change": null
+    },
+    {
+      "metric": "products.rows",
+      "previous": 1037.0,
+      "current": 1037.0,
+      "delta": 0.0,
+      "pct_change": 0.0
+    },
+    {
+      "metric": "products.vendor_product_conflict_count",
+      "previous": 128.0,
+      "current": 128.0,
+      "delta": 0.0,
+      "pct_change": 0.0
+    },
+    {
+      "metric": "sales.cleaning_audit.datetime_fallback_parsed_count",
+      "previous": 0.0,
+      "current": 0.0,
+      "delta": 0.0,
+      "pct_change": null
+    },
+    {
+      "metric": "sales.cleaning_audit.datetime_strict_parsed_count",
+      "previous": 357502.0,
+      "current": 357502.0,
+      "delta": 0.0,
+      "pct_change": 0.0
+    },
+    {
+      "metric": "sales.cleaning_audit.datetime_unparsed_dropped_count",
+      "previous": 14387.0,
+      "current": 14387.0,
+      "delta": 0.0,
+      "pct_change": 0.0
+    },
+    {
+      "metric": "sales.cleaning_audit.invalid_quantity_dropped_count",
+      "previous": 338.0,
+      "current": 338.0,
+      "delta": 0.0,
+      "pct_change": 0.0
+    },
+    {
+      "metric": "sales.cleaning_audit.quantity_cap_value",
+      "previous": 3.0,
+      "current": 3.0,
+      "delta": 0.0,
+      "pct_change": 0.0
+    },
+    {
+      "metric": "sales.cleaning_audit.quantity_capped_row_count",
+      "previous": 32.0,
+      "current": 32.0,
+      "delta": 0.0,
+      "pct_change": 0.0
+    },
+    {
+      "metric": "sales.duplicate_line_grain_count",
+      "previous": 0.0,
+      "current": 0.0,
+      "delta": 0.0,
+      "pct_change": null
+    },
+    {
+      "metric": "sales.monthly_trend_rows",
+      "previous": 25.0,
+      "current": 25.0,
+      "delta": 0.0,
+      "pct_change": 0.0
+    },
+    {
+      "metric": "sales.null_profile.buyer_id",
+      "previous": 0.0,
+      "current": 0.0,
+      "delta": 0.0,
+      "pct_change": null
+    },
+    {
+      "metric": "sales.null_profile.order_datetime",
+      "previous": 0.0,
+      "current": 0.0,
+      "delta": 0.0,
+      "pct_change": null
+    },
+    {
+      "metric": "sales.null_profile.order_id",
+      "previous": 0.0,
+      "current": 0.0,
+      "delta": 0.0,
+      "pct_change": null
+    },
+    {
+      "metric": "sales.null_profile.order_status",
+      "previous": 0.0,
+      "current": 0.0,
+      "delta": 0.0,
+      "pct_change": null
+    },
+    {
+      "metric": "sales.null_profile.quantity",
+      "previous": 0.0,
+      "current": 0.0,
+      "delta": 0.0,
+      "pct_change": null
+    },
+    {
+      "metric": "sales.null_profile.quantity_cap_value",
+      "previous": 0.0,
+      "current": 0.0,
+      "delta": 0.0,
+      "pct_change": null
+    },
+    {
+      "metric": "sales.null_profile.quantity_original",
+      "previous": 0.0,
+      "current": 0.0,
+      "delta": 0.0,
+      "pct_change": null
+    },
+    {
+      "metric": "sales.null_profile.quantity_was_capped",
+      "previous": 0.0,
+      "current": 0.0,
+      "delta": 0.0,
+      "pct_change": null
+    },
+    {
+      "metric": "sales.null_profile.sku_id",
+      "previous": 0.0,
+      "current": 0.0,
+      "delta": 0.0,
+      "pct_change": null
+    },
+    {
+      "metric": "sales.quantity_original_summary.count",
+      "previous": 331822.0,
+      "current": 331822.0,
+      "delta": 0.0,
+      "pct_change": 0.0
+    },
+    {
+      "metric": "sales.quantity_original_summary.max",
+      "previous": 327783095.0,
+      "current": 327783095.0,
+      "delta": 0.0,
+      "pct_change": 0.0
+    },
+    {
+      "metric": "sales.quantity_original_summary.median",
+      "previous": 1.0,
+      "current": 1.0,
+      "delta": 0.0,
+      "pct_change": 0.0
+    },
+    {
+      "metric": "sales.quantity_original_summary.min",
+      "previous": 1.0,
+      "current": 1.0,
+      "delta": 0.0,
+      "pct_change": 0.0
+    },
+    {
+      "metric": "sales.quantity_original_summary.p25",
+      "previous": 1.0,
+      "current": 1.0,
+      "delta": 0.0,
+      "pct_change": 0.0
+    },
+    {
+      "metric": "sales.quantity_original_summary.p75",
+      "previous": 1.0,
+      "current": 1.0,
+      "delta": 0.0,
+      "pct_change": 0.0
+    },
+    {
+      "metric": "sales.quantity_summary.count",
+      "previous": 331822.0,
+      "current": 331822.0,
+      "delta": 0.0,
+      "pct_change": 0.0
+    },
+    {
+      "metric": "sales.quantity_summary.max",
+      "previous": 3.0,
+      "current": 3.0,
+      "delta": 0.0,
+      "pct_change": 0.0
+    },
+    {
+      "metric": "sales.quantity_summary.median",
+      "previous": 1.0,
+      "current": 1.0,
+      "delta": 0.0,
+      "pct_change": 0.0
+    },
+    {
+      "metric": "sales.quantity_summary.min",
+      "previous": 1.0,
+      "current": 1.0,
+      "delta": 0.0,
+      "pct_change": 0.0
+    },
+    {
+      "metric": "sales.quantity_summary.p25",
+      "previous": 1.0,
+      "current": 1.0,
+      "delta": 0.0,
+      "pct_change": 0.0
+    },
+    {
+      "metric": "sales.quantity_summary.p75",
+      "previous": 1.0,
+      "current": 1.0,
+      "delta": 0.0,
+      "pct_change": 0.0
+    },
+    {
+      "metric": "sales.rows",
+      "previous": 331822.0,
+      "current": 331822.0,
+      "delta": 0.0,
+      "pct_change": 0.0
+    },
+    {
+      "metric": "sales.top_sku_rows",
+      "previous": 100.0,
+      "current": 100.0,
+      "delta": 0.0,
+      "pct_change": 0.0
+    }
+  ]
+}

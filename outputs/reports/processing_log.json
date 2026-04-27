@@ -1,0 +1,65 @@
+{
+  "run_utc": "2026-04-27T08:53:10.116274+00:00",
+  "settings": {
+    "raw_data_path": "data\\raw",
+    "processed_dir": "data\\processed",
+    "outputs_dir": "outputs",
+    "metadata_registry_path": "metadata\\derived_fields.json",
+    "company_timezone": "America/Chicago",
+    "referral_discount_rate": 0.1,
+    "black_friday_discount_rate": 0.2,
+    "company_shipping_cost": 4.99,
+    "shipping_threshold_1": 50.0,
+    "shipping_threshold_2": 100.0,
+    "shipping_fee_low": 7.99,
+    "shipping_fee_mid": 4.99,
+    "shipping_fee_high": 0.0,
+    "min_join_coverage_pct": 90.0,
+    "buyers_coverage_filter": true,
+    "dashboard_dir": "outputs\\dashboard",
+    "reports_dir": "outputs\\reports",
+    "metrics_dir": "data\\processed\\metrics",
+    "metadata_dir": "metadata"
+  },
+  "validation": {
+    "raw_checks_passed": false,
+    "cross_checks_passed": false,
+    "raw_checks_count": 13,
+    "cross_checks_count": 2
+  },
+  "outputs": {
+    "buyers_clean_rows": 23784,
+    "sales_clean_rows": 331822,
+    "products_clean_rows": 1037,
+    "final_dataset_line_rows": 315775,
+    "order_level_rows": 224344,
+    "metric_tables": {
+      "q1_hourly_order_volume": 48,
+      "q2_profit_by_quarter_segment": 64,
+      "q3_referral_impact": 2,
+      "q4_black_friday_impact": 16,
+      "q5_customer_base_kpis": 8,
+      "q5_quarterly_segment_analysis": 64
+    },
+    "eda_artifacts": {
+      "buyers_summary_rows": 23784,
+      "sales_summary_rows": 331822,
+      "products_summary_rows": 1037,
+      "final_line_summary_rows": 315775,
+      "order_level_summary_rows": 224344,
+      "eda_dir": "data\\processed\\eda",
+      "drift_report": "data\\processed\\eda\\eda_drift_report.json"
+    }
+  },
+  "quality_passed": true,
+  "metadata_validation_passed": true,
+  "libraries": [
+    "pandas",
+    "numpy",
+    "pyarrow",
+    "nbformat",
+    "matplotlib",
+    "seaborn",
+    "plotly"
+  ]
+}

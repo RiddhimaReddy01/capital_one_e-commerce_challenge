@@ -1,0 +1,6 @@
+pandas>=2.3.3,<2.4
+numpy>=2.3.4,<2.4
+pyarrow>=18.0.0
+plotly>=6.3.0,<7
+streamlit>=1.51.0,<2
+pytz>=2025.2

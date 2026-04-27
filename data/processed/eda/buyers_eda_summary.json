@@ -1,0 +1,143 @@
+{
+  "rows": 23784,
+  "duplicate_buyer_id_count": 0,
+  "null_profile": {
+    "buyer_id": 0,
+    "customer_group": 0,
+    "signup_date": 0,
+    "customer_segment": 0,
+    "preferred_subcategory": 0,
+    "subcategory_pool": 0,
+    "preferred_channel": 0,
+    "preferred_payment": 0,
+    "region": 0,
+    "state": 0,
+    "timezone": 0,
+    "is_referred": 214,
+    "wishlist_size": 0,
+    "is_referred_invalid": 0
+  },
+  "invalid_referral_count": 214,
+  "distributions": {
+    "customer_group": [
+      {
+        "value": "Regular",
+        "count": 9512,
+        "pct": 39.9933
+      },
+      {
+        "value": "Occasional",
+        "count": 7148,
+        "pct": 30.0538
+      },
+      {
+        "value": "Frequent",
+        "count": 5694,
+        "pct": 23.9405
+      },
+      {
+        "value": "VIP",
+        "count": 1430,
+        "pct": 6.0124
+      }
+    ],
+    "customer_segment": [
+      {
+        "value": "Bargain Hunter",
+        "count": 3021,
+        "pct": 12.7018
+      },
+      {
+        "value": "Home Organizer",
+        "count": 3014,
+        "pct": 12.6724
+      },
+      {
+        "value": "Tech Enthusiast",
+        "count": 3013,
+        "pct": 12.6682
+      },
+      {
+        "value": "Beauty Lover",
+        "count": 3004,
+        "pct": 12.6303
+      },
+      {
+        "value": "Cozy Homemaker",
+        "count": 2986,
+        "pct": 12.5547
+      },
+      {
+        "value": "Fashion Shopper",
+        "count": 2928,
+        "pct": 12.3108
+      },
+      {
+        "value": "Fitness Buff",
+        "count": 2919,
+        "pct": 12.273
+      },
+      {
+        "value": "Young Parent",
+        "count": 2899,
+        "pct": 12.1889
+      }
+    ],
+    "region": [
+      {
+        "value": "West",
+        "count": 9454,
+        "pct": 39.7494
+      },
+      {
+        "value": "East",
+        "count": 7184,
+        "pct": 30.2052
+      },
+      {
+        "value": "Central",
+        "count": 4724,
+        "pct": 19.8621
+      },
+      {
+        "value": "Other",
+        "count": 2422,
+        "pct": 10.1833
+      }
+    ],
+    "preferred_channel": [
+      {
+        "value": "App",
+        "count": 11860,
+        "pct": 49.8655
+      },
+      {
+        "value": "Mobile",
+        "count": 5975,
+        "pct": 25.1219
+      },
+      {
+        "value": "Website",
+        "count": 5949,
+        "pct": 25.0126
+      }
+    ],
+    "is_referred": [
+      {
+        "value": "0",
+        "count": 20007,
+        "pct": 84.1196
+      },
+      {
+        "value": "1",
+        "count": 3563,
+        "pct": 14.9807
+      },
+      {
+        "value": null,
+        "count": 214,
+        "pct": 0.8998
+      }
+    ]
+  }
+}

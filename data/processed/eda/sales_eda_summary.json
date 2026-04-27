@@ -1,0 +1,53 @@
+{
+  "rows": 331822,
+  "duplicate_line_grain_count": 0,
+  "null_profile": {
+    "order_id": 0,
+    "buyer_id": 0,
+    "sku_id": 0,
+    "quantity": 0,
+    "order_datetime": 0,
+    "order_status": 0,
+    "quantity_original": 0,
+    "quantity_was_capped": 0,
+    "quantity_cap_value": 0
+  },
+  "status_mix": [
+    {
+      "value": "Delivered",
+      "count": 321772,
+      "pct": 96.9713
+    },
+    {
+      "value": "Cancelled",
+      "count": 10050,
+      "pct": 3.0287
+    }
+  ],
+  "quantity_summary": {
+    "count": 331822,
+    "min": 1.0,
+    "p25": 1.0,
+    "median": 1.0,
+    "p75": 1.0,
+    "max": 3.0
+  },
+  "quantity_original_summary": {
+    "count": 331822,
+    "min": 1.0,
+    "p25": 1.0,
+    "median": 1.0,
+    "p75": 1.0,
+    "max": 327783095.0
+  },
+  "cleaning_audit": {
+    "datetime_strict_parsed_count": 357502,
+    "datetime_fallback_parsed_count": 0,
+    "datetime_unparsed_dropped_count": 14387,
+    "invalid_quantity_dropped_count": 338,
+    "quantity_cap_value": 3.0,
+    "quantity_capped_row_count": 32
+  },
+  "monthly_trend_rows": 25,
+  "top_sku_rows": 100
+}

@@ -1,0 +1,82 @@
+======================================================================
+CAPITAL ONE CHALLENGE - DATA PIPELINE
+======================================================================
+Started at: 2026-04-27T08:52:42.207625+00:00
+
+[main] Config loaded - checking directories...
+[main] All output directories ready
+
+[1/11] Loading raw data...
+sales_raw: 376,004 rows, buyers_raw: 52,500 rows, products_raw: 1,037 rows
+
+[2/11] Validating raw datasets...
+Raw validation: WARNINGS
+RV_B001: buyer_id has no nulls (value=2634)
+RV_B002: buyer_id is unique (value=4999)
+RV_S002: buyer_id has no nulls (value=340)
+
+[3/11] Validating cross-dataset relationships...
+Cross-dataset validation: WARNINGS
+RV_X001: sales.buyer_id coverage to buyers >= 90.0% (coverage=63.6794532627866%)
+RV_X002: sales.sku_id coverage to products >= 90.0% (coverage=-1%)
+
+[4/11] Cleaning datasets...
+[main] OK buyers_clean: 23,784 rows
+[main] OK sales_clean: 331,822 rows
+[main] OK products_clean: 1,037 rows
+
+[5/11] Joining datasets...
+[main] OK final_dataset_line: 315,775 rows
+
+[6/11] Building order-level dataset...
+[main] OK order_level: 224,344 orders
+
+[main] Writing tables to parquet and CSV...
+
+[7/11] Running quality checks...
+[main] OK Quality checks: PASSED
+[main]   - Join coverage: 95.14%
+[main]   - Row retention: 95.16%
+
+[8/11] Generating EDA artifacts...
+[main] OK EDA artifacts generated
+
+[9/11] Calculating business metrics...
+[main] OK 6 metric tables generated:
+[main]   - q1_hourly_order_volume: 48 rows
+[main]   - q2_profit_by_quarter_segment: 64 rows
+[main]   - q3_referral_impact: 2 rows
+[main]   - q4_black_friday_impact: 16 rows
+[main]   - q5_customer_base_kpis: 8 rows
+[main]   - q5_quarterly_segment_analysis: 64 rows
+
+[10/11] Validating metadata registry...
+Metadata validation: PASSED
+
+[11/11] Generating executive dashboard...
+[main] OK Dashboard generated: outputs\dashboard\index.html
+
+======================================================================
+PIPELINE COMPLETE
+======================================================================
+
+Data Summary:
+  Buyers: 23,784
+  Sales: 331,822
+  Products: 1,037
+  Final line-level: 315,775 lines
+  Order-level: 224,344 orders
+
+Quality Metrics:
+  Join coverage: 95.14%
+  Row retention: 95.16%
+  Status: PASSED
+
+Outputs:
+  Parquet data: data\processed\final_line_level.parquet
+  CSV data: data\processed\final_line_level.csv and data\processed\final_order_level.csv
+  Reports: outputs\reports
+  Dashboard: outputs\dashboard\index.html
+  Log file: outputs\pipeline.log
+======================================================================
+Finished at: 2026-04-27T08:53:11.730870+00:00

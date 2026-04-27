@@ -1,0 +1,3 @@
+referral_group,unique_customers,order_count,avg_profit_per_order,median_profit_per_order,total_profit,total_revenue,total_referral_discount,total_black_friday_discount,total_cogs,total_company_shipping_cost,counterfactual_profit,net_lift_from_referral,profit_quality_delta,total_referral_cost
+non_referred,20221,190478,34.7674529018038,13.29489796144725,6622434.893829784,15979550.276,0.0,41293.394,8406630.162170216,950485.2200000001,6622434.893829784,0.0,0.0,0.0
+referred,3563,33866,33.76299207733152,12.950922962540988,1143417.4896909092,2764584.592,21707.898,6805.47,1452175.762309091,168991.34,1165125.387690909,21707.897999999812,-34017.070281578315,-12309.172281578503

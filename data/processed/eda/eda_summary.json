@@ -1,0 +1,333 @@
+{
+  "buyers": {
+    "rows": 23784,
+    "duplicate_buyer_id_count": 0,
+    "null_profile": {
+      "buyer_id": 0,
+      "customer_group": 0,
+      "signup_date": 0,
+      "customer_segment": 0,
+      "preferred_subcategory": 0,
+      "subcategory_pool": 0,
+      "preferred_channel": 0,
+      "preferred_payment": 0,
+      "region": 0,
+      "state": 0,
+      "timezone": 0,
+      "is_referred": 214,
+      "wishlist_size": 0,
+      "is_referred_invalid": 0
+    },
+    "invalid_referral_count": 214,
+    "distributions": {
+      "customer_group": [
+        {
+          "value": "Regular",
+          "count": 9512,
+          "pct": 39.9933
+        },
+        {
+          "value": "Occasional",
+          "count": 7148,
+          "pct": 30.0538
+        },
+        {
+          "value": "Frequent",
+          "count": 5694,
+          "pct": 23.9405
+        },
+        {
+          "value": "VIP",
+          "count": 1430,
+          "pct": 6.0124
+        }
+      ],
+      "customer_segment": [
+        {
+          "value": "Bargain Hunter",
+          "count": 3021,
+          "pct": 12.7018
+        },
+        {
+          "value": "Home Organizer",
+          "count": 3014,
+          "pct": 12.6724
+        },
+        {
+          "value": "Tech Enthusiast",
+          "count": 3013,
+          "pct": 12.6682
+        },
+        {
+          "value": "Beauty Lover",
+          "count": 3004,
+          "pct": 12.6303
+        },
+        {
+          "value": "Cozy Homemaker",
+          "count": 2986,
+          "pct": 12.5547
+        },
+        {
+          "value": "Fashion Shopper",
+          "count": 2928,
+          "pct": 12.3108
+        },
+        {
+          "value": "Fitness Buff",
+          "count": 2919,
+          "pct": 12.273
+        },
+        {
+          "value": "Young Parent",
+          "count": 2899,
+          "pct": 12.1889
+        }
+      ],
+      "region": [
+        {
+          "value": "West",
+          "count": 9454,
+          "pct": 39.7494
+        },
+        {
+          "value": "East",
+          "count": 7184,
+          "pct": 30.2052
+        },
+        {
+          "value": "Central",
+          "count": 4724,
+          "pct": 19.8621
+        },
+        {
+          "value": "Other",
+          "count": 2422,
+          "pct": 10.1833
+        }
+      ],
+      "preferred_channel": [
+        {
+          "value": "App",
+          "count": 11860,
+          "pct": 49.8655
+        },
+        {
+          "value": "Mobile",
+          "count": 5975,
+          "pct": 25.1219
+        },
+        {
+          "value": "Website",
+          "count": 5949,
+          "pct": 25.0126
+        }
+      ],
+      "is_referred": [
+        {
+          "value": "0",
+          "count": 20007,
+          "pct": 84.1196
+        },
+        {
+          "value": "1",
+          "count": 3563,
+          "pct": 14.9807
+        },
+        {
+          "value": null,
+          "count": 214,
+          "pct": 0.8998
+        }
+      ]
+    }
+  },
+  "sales": {
+    "rows": 331822,
+    "duplicate_line_grain_count": 0,
+    "null_profile": {
+      "order_id": 0,
+      "buyer_id": 0,
+      "sku_id": 0,
+      "quantity": 0,
+      "order_datetime": 0,
+      "order_status": 0,
+      "quantity_original": 0,
+      "quantity_was_capped": 0,
+      "quantity_cap_value": 0
+    },
+    "status_mix": [
+      {
+        "value": "Delivered",
+        "count": 321772,
+        "pct": 96.9713
+      },
+      {
+        "value": "Cancelled",
+        "count": 10050,
+        "pct": 3.0287
+      }
+    ],
+    "quantity_summary": {
+      "count": 331822,
+      "min": 1.0,
+      "p25": 1.0,
+      "median": 1.0,
+      "p75": 1.0,
+      "max": 3.0
+    },
+    "quantity_original_summary": {
+      "count": 331822,
+      "min": 1.0,
+      "p25": 1.0,
+      "median": 1.0,
+      "p75": 1.0,
+      "max": 327783095.0
+    },
+    "cleaning_audit": {
+      "datetime_strict_parsed_count": 357502,
+      "datetime_fallback_parsed_count": 0,
+      "datetime_unparsed_dropped_count": 14387,
+      "invalid_quantity_dropped_count": 338,
+      "quantity_cap_value": 3.0,
+      "quantity_capped_row_count": 32
+    },
+    "monthly_trend_rows": 25,
+    "top_sku_rows": 100
+  },
+  "products": {
+    "rows": 1037,
+    "duplicate_sku_id_count": 0,
+    "null_profile": {
+      "category_name": 0,
+      "category_id": 0,
+      "subcategory_name": 0,
+      "subcategory_id": 0,
+      "vendor": 0,
+      "currently_active_vendor": 0,
+      "product_num": 0,
+      "price": 0,
+      "profit_margin": 224,
+      "active_product": 0,
+      "current_stock": 0,
+      "pct_profit_margin": 839,
+      "margin": 0,
+      "margin_imputed": 0,
+      "active_product_num": 274,
+      "currently_active_vendor_num": 274,
+      "current_stock_num": 0,
+      "vendor_product_conflict": 0,
+      "inactive_with_stock_flag": 0,
+      "sku_id": 0
+    },
+    "margin_imputed_count": 26,
+    "vendor_product_conflict_count": 128,
+    "inactive_with_stock_count": 270,
+    "numeric_bounds": {
+      "price": {
+        "null_count": 0,
+        "min": 3.18,
+        "max": 1243.16,
+        "mean": 68.39088717454196
+      },
+      "margin": {
+        "null_count": 0,
+        "min": -0.0443880730134661,
+        "max": 0.9271309956369038,
+        "mean": 0.3025291267054234
+      },
+      "current_stock": {
+        "null_count": 0,
+        "min": 5.0,
+        "max": 199.0,
+        "mean": 63.64513018322083
+      }
+    },
+    "category_breakdown_rows": 8
+  },
+  "final_line": {
+    "rows": 315775,
+    "duplicate_order_buyer_sku_count": 0,
+    "null_profile": {
+      "order_id": 0,
+      "buyer_id": 0,
+      "sku_id": 0,
+      "quantity": 0,
+      "order_datetime": 0,
+      "order_status": 0,
+      "quantity_original": 0,
+      "quantity_was_capped": 0,
+      "quantity_cap_value": 0,
+      "customer_group": 0,
+      "signup_date": 0,
+      "customer_segment": 0,
+      "preferred_subcategory": 0,
+      "subcategory_pool": 0,
+      "preferred_channel": 0,
+      "preferred_payment": 0,
+      "region": 0,
+      "state": 0,
+      "timezone": 0,
+      "is_referred": 2718,
+      "wishlist_size": 0,
+      "is_referred_invalid": 0,
+      "category_name": 0,
+      "category_id": 0,
+      "subcategory_name": 0,
+      "subcategory_id": 0,
+      "vendor": 0,
+      "currently_active_vendor": 0,
+      "product_num": 0,
+      "price": 0,
+      "profit_margin": 33373,
+      "active_product": 0,
+      "current_stock": 0,
+      "pct_profit_margin": 285924,
+      "margin": 0,
+      "margin_imputed": 0,
+      "active_product_num": 77827,
+      "currently_active_vendor_num": 77827,
+      "current_stock_num": 0,
+      "vendor_product_conflict": 0,
+      "inactive_with_stock_flag": 0
+    }
+  },
+  "order_level": {
+    "rows": 224344,
+    "duplicate_order_id_count": 0,
+    "null_profile": {
+      "order_id": 0,
+      "buyer_id": 0,
+      "customer_segment": 0,
+      "state": 0,
+      "region": 0,
+      "order_datetime_company": 0,
+      "is_referred": 0,
+      "is_first_order": 0,
+      "is_black_friday": 0,
+      "order_base_revenue": 0,
+      "order_net_revenue_before_shipping": 0,
+      "order_cogs": 0,
+      "referral_discount_amount": 0,
+      "black_friday_discount_amount": 0,
+      "customer_shipping_fee": 0,
+      "company_shipping_cost": 0,
+      "order_revenue": 0,
+      "order_profit": 0,
+      "year": 0,
+      "quarter": 0,
+      "hour_company": 0,
+      "is_referral_discount": 0
+    },
+    "order_profit_summary": {
+      "count": 224344,
+      "min": -73.05696609571051,
+      "p25": 5.628913859201807,
+      "median": 13.265382190988484,
+      "p75": 29.828549974464124,
+      "max": 1820.485062642038,
+      "negative_order_profit_count": 5011
+    },
+    "monthly_trend_rows": 24
+  }
+}

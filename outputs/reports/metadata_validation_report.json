@@ -1,0 +1,37 @@
+{
+  "passed": true,
+  "registry_path": "metadata\\derived_fields.json",
+  "field_count": 13,
+  "checks": [
+    {
+      "rule_id": "MD001",
+      "description": "All metadata entries must contain required keys",
+      "value": 0,
+      "passed": true
+    },
+    {
+      "rule_id": "MD002",
+      "description": "Metadata field names must be unique",
+      "value": 0,
+      "passed": true
+    },
+    {
+      "rule_id": "MD003",
+      "description": "Metadata grain must be one of {buyer,line,order}",
+      "value": 0,
+      "passed": true
+    },
+    {
+      "rule_id": "MD004",
+      "description": "Each metadata field must exist in the grain target dataset",
+      "value": 0,
+      "passed": true
+    },
+    {
+      "rule_id": "MD005",
+      "description": "Metadata input columns must exist in the grain target dataset",
+      "value": 0,
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "fields": [
+    {
+      "name": "order_datetime_company",
+      "grain": "order",
+      "definition": "Order timestamp converted from customer timezone to company timezone.",
+      "formula": "tz_convert(order_datetime, timezone, company_timezone)",
+      "inputs": [
+        "order_datetime",
+        "timezone"
+      ]
+    },
+    {
+      "name": "is_first_order",
+      "grain": "order",
+      "definition": "True when an order is the first observed order for a buyer.",
+      "formula": "order_datetime_company == min(order_datetime_company) by buyer_id",
+      "inputs": [
+        "buyer_id",
+        "order_datetime_company"
+      ]
+    },
+    {
+      "name": "is_black_friday",
+      "grain": "order",
+      "definition": "Flag for orders placed on Black Friday in company timezone (America/Chicago). Black Friday = Friday following Thanksgiving.",
+      "formula": "order_date_company == black_friday_date(year)",
+      "inputs": [
+        "order_datetime_company"
+      ]
+    },
+    {
+      "name": "referral_discount_amount",
+      "grain": "order",
+      "definition": "Discount amount from referral promotion (10% on first order only). Not applied if Black Friday discount is higher.",
+      "formula": "order_base_revenue * 0.10 when (is_referred==1 AND is_first_order==True AND referral_discount > black_friday_discount)",
+      "inputs": [
+        "is_referred",
+        "is_first_order",
+        "order_base_revenue",
+        "black_friday_discount_amount"
+      ]
+    },
+    {
+      "name": "black_friday_discount_amount",
+      "grain": "order",
+      "definition": "Discount amount from Black Friday promotion (20%). Takes precedence over referral discount (max applied, not cumulative).",
+      "formula": "order_base_revenue * 0.20 when is_black_friday==True, else 0",
+      "inputs": [
+        "is_black_friday",
+        "order_base_revenue"
+      ]
+    },
+    {
+      "name": "order_base_revenue",
+      "grain": "order",
+      "definition": "Gross merchandise revenue before discounts and shipping.",
+      "formula": "sum(price * quantity)",
+      "inputs": [
+        "price",
+        "quantity"
+      ]
+    },
+    {
+      "name": "order_net_revenue_before_shipping",
+      "grain": "order",
+      "definition": "Revenue after discounts, before shipping fees.",
+      "formula": "sum(line_base_revenue * (1 - discount_rate))",
+      "inputs": [
+        "order_base_revenue",
+        "referral_discount_amount",
+        "black_friday_discount_amount"
+      ]
+    },
+    {
+      "name": "customer_shipping_fee",
+      "grain": "order",
+      "definition": "Shipping fee charged to customer based on order value tiers.",
+      "formula": "tiered(order_base_revenue, thresholds)",
+      "inputs": [
+        "order_base_revenue"
+      ]
+    },
+    {
+      "name": "company_shipping_cost",
+      "grain": "order",
+      "definition": "Flat shipping cost paid by company per order.",
+      "formula": "constant(company_shipping_cost)",
+      "inputs": []
+    },
+    {
+      "name": "order_revenue",
+      "grain": "order",
+      "definition": "Net order revenue including customer shipping fee.",
+      "formula": "order_net_revenue_before_shipping + customer_shipping_fee",
+      "inputs": [
+        "order_net_revenue_before_shipping",
+        "customer_shipping_fee"
+      ]
+    },
+    {
+      "name": "order_profit",
+      "grain": "order",
+      "definition": "Order profit after COGS and company shipping cost.",
+      "formula": "order_revenue - order_cogs - company_shipping_cost",
+      "inputs": [
+        "order_revenue",
+        "order_cogs",
+        "company_shipping_cost"
+      ]
+    },
+    {
+      "name": "quarter",
+      "grain": "order",
+      "definition": "Order quarter in company timezone.",
+      "formula": "to_period(order_datetime_company, 'Q')",
+      "inputs": [
+        "order_datetime_company"
+      ]
+    },
+    {
+      "name": "hour_company",
+      "grain": "order",
+      "definition": "Order hour in company timezone.",
+      "formula": "hour(order_datetime_company)",
+      "inputs": [
+        "order_datetime_company"
+      ]
+    }
+  ],
+  "validation_passed": true
+}

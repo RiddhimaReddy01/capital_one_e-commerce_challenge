@@ -1,0 +1,213 @@
+{
+  "passed": true,
+  "summary": {
+    "buyers_rows": 23784,
+    "sales_rows": 331822,
+    "products_rows": 1037,
+    "final_line_rows": 315775,
+    "order_level_rows": 224344,
+    "coverage_pct": 95.14,
+    "row_retention_pct": 95.16,
+    "missing_sales_buyer_ids_in_final": 1216
+  },
+  "checks": [
+    {
+      "rule_id": "DQ_B001",
+      "dataset": "buyers_clean",
+      "description": "buyer_id null count should be 0",
+      "passed": true,
+      "value": 0,
+      "threshold": 0,
+      "severity": "HIGH"
+    },
+    {
+      "rule_id": "DQ_B002",
+      "dataset": "buyers_clean",
+      "description": "buyer_id duplicate count should be 0",
+      "passed": true,
+      "value": 0,
+      "threshold": 0,
+      "severity": "HIGH"
+    },
+    {
+      "rule_id": "DQ_S001",
+      "dataset": "sales_clean",
+      "description": "order_id null count should be 0",
+      "passed": true,
+      "value": 0,
+      "threshold": 0,
+      "severity": "HIGH"
+    },
+    {
+      "rule_id": "DQ_S002",
+      "dataset": "sales_clean",
+      "description": "buyer_id null count should be 0",
+      "passed": true,
+      "value": 0,
+      "threshold": 0,
+      "severity": "HIGH"
+    },
+    {
+      "rule_id": "DQ_S003",
+      "dataset": "sales_clean",
+      "description": "sku_id null count should be 0",
+      "passed": true,
+      "value": 0,
+      "threshold": 0,
+      "severity": "HIGH"
+    },
+    {
+      "rule_id": "DQ_S004",
+      "dataset": "sales_clean",
+      "description": "order_status null count should be 0",
+      "passed": true,
+      "value": 0,
+      "threshold": 0,
+      "severity": "HIGH"
+    },
+    {
+      "rule_id": "DQ_S005",
+      "dataset": "sales_clean",
+      "description": "quantity null count should be 0 after cleaning",
+      "passed": true,
+      "value": 0,
+      "threshold": 0,
+      "severity": "HIGH"
+    },
+    {
+      "rule_id": "DQ_S006",
+      "dataset": "sales_clean",
+      "description": "quantity <= 0 count should be 0 after cleaning",
+      "passed": true,
+      "value": 0,
+      "threshold": 0,
+      "severity": "HIGH"
+    },
+    {
+      "rule_id": "DQ_S007",
+      "dataset": "sales_clean",
+      "description": "quantity capped row count (informational)",
+      "passed": true,
+      "value": 32,
+      "threshold": null,
+      "severity": "INFO"
+    },
+    {
+      "rule_id": "DQ_S008",
+      "dataset": "sales_clean",
+      "description": "quantity above cap count should be 0 after capping",
+      "passed": true,
+      "value": 0,
+      "threshold": 0,
+      "severity": "HIGH"
+    },
+    {
+      "rule_id": "DQ_P001",
+      "dataset": "products_clean",
+      "description": "sku_id duplicate count should be 0",
+      "passed": true,
+      "value": 0,
+      "threshold": 0,
+      "severity": "HIGH"
+    },
+    {
+      "rule_id": "DQ_P002",
+      "dataset": "products_clean",
+      "description": "price null count (informational)",
+      "passed": true,
+      "value": 0,
+      "threshold": null,
+      "severity": "INFO"
+    },
+    {
+      "rule_id": "DQ_P003",
+      "dataset": "products_clean",
+      "description": "price negative count should be 0",
+      "passed": true,
+      "value": 0,
+      "threshold": 0,
+      "severity": "HIGH"
+    },
+    {
+      "rule_id": "DQ_P004",
+      "dataset": "products_clean",
+      "description": "margin < -1 count should be 0",
+      "passed": true,
+      "value": 0,
+      "threshold": 0,
+      "severity": "MEDIUM"
+    },
+    {
+      "rule_id": "DQ_P005",
+      "dataset": "products_clean",
+      "description": "margin > 1 count should be 0",
+      "passed": true,
+      "value": 0,
+      "threshold": 0,
+      "severity": "MEDIUM"
+    },
+    {
+      "rule_id": "DQ_J001",
+      "dataset": "final_dataset_line",
+      "description": "join coverage pct should be above minimum threshold",
+      "passed": true,
+      "value": 95.136,
+      "threshold": 90.0,
+      "severity": "MEDIUM"
+    },
+    {
+      "rule_id": "DQ_J002",
+      "dataset": "final_dataset_line",
+      "description": "missing buyer IDs from sales after join (informational)",
+      "passed": true,
+      "value": 1216,
+      "threshold": null,
+      "severity": "INFO"
+    },
+    {
+      "rule_id": "DQ_O001",
+      "dataset": "order_level",
+      "description": "order_id duplicate count should be 0 at order grain",
+      "passed": true,
+      "value": 0,
+      "threshold": 0,
+      "severity": "HIGH"
+    },
+    {
+      "rule_id": "DQ_O005",
+      "dataset": "order_level",
+      "description": "invalid year values (< 2020 or > 2026) should be filtered",
+      "passed": true,
+      "value": 0,
+      "threshold": 0,
+      "severity": "HIGH"
+    },
+    {
+      "rule_id": "DQ_O002",
+      "dataset": "order_level",
+      "description": "customer shipping fee negative count should be 0",
+      "passed": true,
+      "value": 0,
+      "threshold": 0,
+      "severity": "HIGH"
+    },
+    {
+      "rule_id": "DQ_O003",
+      "dataset": "order_level",
+      "description": "order_revenue negative count (informational)",
+      "passed": true,
+      "value": 0,
+      "threshold": null,
+      "severity": "INFO"
+    },
+    {
+      "rule_id": "DQ_O004",
+      "dataset": "order_level",
+      "description": "order_profit < 0 count (should investigate for data quality)",
+      "passed": true,
+      "value": 5011,
+      "threshold": null,
+      "severity": "MEDIUM"
+    }
+  ]
+}

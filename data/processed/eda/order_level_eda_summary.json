@@ -1,0 +1,38 @@
+{
+  "rows": 224344,
+  "duplicate_order_id_count": 0,
+  "null_profile": {
+    "order_id": 0,
+    "buyer_id": 0,
+    "customer_segment": 0,
+    "state": 0,
+    "region": 0,
+    "order_datetime_company": 0,
+    "is_referred": 0,
+    "is_first_order": 0,
+    "is_black_friday": 0,
+    "order_base_revenue": 0,
+    "order_net_revenue_before_shipping": 0,
+    "order_cogs": 0,
+    "referral_discount_amount": 0,
+    "black_friday_discount_amount": 0,
+    "customer_shipping_fee": 0,
+    "company_shipping_cost": 0,
+    "order_revenue": 0,
+    "order_profit": 0,
+    "year": 0,
+    "quarter": 0,
+    "hour_company": 0,
+    "is_referral_discount": 0
+  },
+  "order_profit_summary": {
+    "count": 224344,
+    "min": -73.05696609571051,
+    "p25": 5.628913859201807,
+    "median": 13.265382190988484,
+    "p75": 29.828549974464124,
+    "max": 1820.485062642038,
+    "negative_order_profit_count": 5011
+  },
+  "monthly_trend_rows": 24
+}
